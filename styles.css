@@ -1,14 +1,14 @@
-a {
+tb {
     display: inline;
     font-family: 'Helvetica';
     font-style: extrabold;
-    font-size: 1em;
-    color:black;
+    font-size: 1.5em;
+    color:grey;
     text-decoration: none;
     justify-content: left;
 
     padding-right: 5%;
-    margin: 5% auto;
+    margin: 20% auto;
     justify-content: left;
 }
 
@@ -16,15 +16,20 @@ body {
     text-align: left;
     font-family: 'Helvetica';
     color:black;
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 5%
     margin: 7% auto;
     justify-content: left;
+    whitespace: pre-wrap;
 }
 
 p {
-    font-size: 1em;
-    margin: 5% auto;
+    font-size: 1.2em;
+    margin: 2% auto;
     justify-content: left;
+    line-height: 1.5;
+    text-wrap:stable;
+    
     
 
 .centered {
@@ -32,4 +37,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.float-right {
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 5px;
 }
