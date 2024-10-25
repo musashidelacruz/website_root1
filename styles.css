@@ -54,7 +54,7 @@ p {
 } 
     /*stadard headings*/
 h1, h2, h3 {
-    margin-top: 20px 0; /*spacing above heading*/
+    margin-top: 5px 0; /*spacing above heading*/
     color: #333; 
     text-align: center;
 }
