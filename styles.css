@@ -38,22 +38,33 @@ nav ul li a:hover {
 /*Body and Typography*/
 
 body {
-    text-align: left;
     font-family: 'Helvetica', sans-serif;
     color:black;
-    margin: 70px auto;
+    margin: 2% auto;
     padding: 0 5%;
+    text-align: center;
     white-space: pre-wrap;
 }
 
 p {
     font-size: 1.2rem;
-    margin: 2% 0 auto;
-    justify-content: left;
-    /*line-height: 1.5;*/
-    /*text-wrap:stable;*/
+    margin: auto;
+    line-height: 1.5;
+    text-wrap:stable;
 } 
-    
+    /*stadard headings*/
+h1, h2, h3 {
+    margin-top: 20px 0; /*spacing above heading*/
+    color: #333; 
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    position: relative
+}
 /*images*/
 .center-image {
     display: block;
@@ -66,14 +77,9 @@ p {
     margin-right: 20%;
     margin-bottom: 5px;
 }
-h1, h2, h3 {
-    margin-top: 20px 0; /*spacing above heading*/
-    color: #333; 
-}
 
-footer{
-    text-align: center;
-    padding: 20px 0;
-    background-color: #f8f8f8;
-    position: relative
+.float-left {
+    float: left;
+    margin: 2%;
+    margin-bottom: 5px;
 }
