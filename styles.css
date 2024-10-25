@@ -58,7 +58,8 @@ p {
 .center-image {
     display: block;
     margin: 20px auto; /*added top and bottom margin*/
-    width: 50%;
+    width: 50% 
+    height: auto;
 }
 .float-right {
     float: right;
