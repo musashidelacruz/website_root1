@@ -1,0 +1,22 @@
+Hi! I'm Musashi
+
+I'm a tech-adventurer who loves to learn new things and explore new spaces. 
+I'm a Certified Salesforce Administrator and Trailhead Ranger.  
+I love leveraging the power of Salesforce to build, connect, and automate.
+I'm a Google Certified IT Support Specialist, Linux novice, and Python fan girl.
+My first love was Python but I'm currently exploring the world of web development.
+
+
+My Work
+
+Honolulu Houses
+
+This rental management app allows a small firm or individual owner to manage their properties by centralizing comminication and records, automating reminders, and standardizing precesses.  It is built on the Salesforce platform as an external portal or Salesforce Experience. Check out this project by clicking on the image.  It will take you to the Salesforce experience.  To log on as a tennent, follow these steps.  To log on as an agent, folow these steps    
+
+This Website
+
+I set out building this webiste to learn about web development. I wanted to create the Helvetica of websites: easy to navigate, functionally simple, visually clean and balanced. let me know how I'm doing",
+
+Drop me a note!
+
+I'm on linkedIn. Let me know if you have any suggestions, questions, or fun ideas

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hi! I'm Musashi</title>
-        <link rel="stylesheet" href="styles.css"> 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! I'm Musashi</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"></script>
+</head>
     <body>
         <!--Navigation Bar-->
         <nav>
@@ -18,7 +19,7 @@
 
         <!--Intro -->
         <main>
-            <div id="Hi" allign text-left>
+            <div id="Hi" aligntext-left>
                 <p> </p>
                 <h1 data-key="AboutMeHeader"></h1>
                 <img src="portrait.jpg" alt="Picture of Musashi" width="200" height="200" class="float-left">
@@ -28,7 +29,7 @@
             </div>
 
                 <!--My Work-->
-            <div id="my_work" allign text-center>
+            <div id="my_work" aligntext-center>
                 <project1> 
                     <h1 data-key="MyWorkHeader"></h1>
                     <h2 data-key="Project1Header"></h2>
@@ -44,13 +45,12 @@
         
         <!--Leave me a note-->
             <div id="contact">
-                <h1>Drop me a note!</h1>
-                <p>I'm on linkedIn. Let me know if you have any suggestions, questions, or fun ideas</p>
-                <a href="https://linkedin.com/in/musashi-delacruz"><img src="in.png" alt="Linkedin" width="50" height="50" aligne="middle"></a>
-                <p></p>
+                <h1 data-key="ContactHeader"></h1>
+                <p data-key="ContactContent"></p>
+                <a href="https://linkedin.com/in/musashi-delacruz"><img src="in.png" alt="Linkedin" width="50" height="50" class="center-image"></a>
+                <p data-key="ContactContent1"></p>
             </div>
         
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
